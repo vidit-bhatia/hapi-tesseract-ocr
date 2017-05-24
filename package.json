@@ -4,7 +4,7 @@
     "description": "HAPI plugin for tesseract based Node library",
     "main": "lib/index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "mocha"
     },
     "repository": {
         "type": "git",
@@ -28,7 +28,7 @@
         "hapi": "^11.1.2",
         "istanbul": "^0.4.1",
         "jscoverage": "^0.6.0",
-        "mocha": "^2.3.4"
+        "mocha": "^3.4.1"
     },
     "homepage": "https://github.com/vidit-bhatia/hapi-tesseract-ocr#readme",
     "pre-commit": [
