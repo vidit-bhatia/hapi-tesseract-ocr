@@ -3,7 +3,7 @@ sudo: false
 
 node_js:
   - '5'
-  - '4.2.0'
+  - '4.2.0' 
   - '4'
 
 cache:
