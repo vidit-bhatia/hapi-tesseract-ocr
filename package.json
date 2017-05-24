@@ -1,23 +1,38 @@
 {
-  "name": "hapi-tesseract-ocr",
-  "version": "0.0.1",
-  "description": "HAPI plugin for tesseract based Node library",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vidit-bhatia/hapi-tesseract-ocr.git"
-  },
-  "keywords": [
-    "tessaract",
-    "hapi"
-  ],
-  "author": "vidit-bhatia",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vidit-bhatia/hapi-tesseract-ocr/issues"
-  },
-  "homepage": "https://github.com/vidit-bhatia/hapi-tesseract-ocr#readme"
+    "name": "hapi-tesseract-ocr",
+    "version": "0.0.1",
+    "description": "HAPI plugin for tesseract based Node library",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vidit-bhatia/hapi-tesseract-ocr.git"
+    },
+    "keywords": [
+        "tessaract",
+        "hapi"
+    ],
+    "engines": {
+        "node": ">=4.0.0"
+    },
+    "author": "vidit-bhatia",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vidit-bhatia/hapi-tesseract-ocr/issues"
+    },
+    "devDependencies": {
+        "chai": "^3.4.1",
+        "coveralls": "^2.11.6",
+        "hapi": "^11.1.2",
+        "istanbul": "^0.4.1",
+        "jscoverage": "^0.6.0",
+        "mocha": "^2.3.4"
+    },
+    "homepage": "https://github.com/vidit-bhatia/hapi-tesseract-ocr#readme",
+    "pre-commit": [
+        "coverage",
+        "jshint"
+    ]
 }
