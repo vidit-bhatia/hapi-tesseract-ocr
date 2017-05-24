@@ -1,0 +1,23 @@
+{
+  "name": "hapi-tesseract-ocr",
+  "version": "0.0.1",
+  "description": "HAPI plugin for tesseract based Node library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidit-bhatia/hapi-tesseract-ocr.git"
+  },
+  "keywords": [
+    "tessaract",
+    "hapi"
+  ],
+  "author": "vidit-bhatia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vidit-bhatia/hapi-tesseract-ocr/issues"
+  },
+  "homepage": "https://github.com/vidit-bhatia/hapi-tesseract-ocr#readme"
+}
